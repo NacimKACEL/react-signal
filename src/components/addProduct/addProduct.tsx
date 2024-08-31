@@ -6,7 +6,7 @@ const addProduct = () => {
 
   const {store} = useStore();
 
-  let sequence = useStore().store.productsState.value.length + 1;
+  let sequence = useStore().store.productsState.value.length  + 1;
 
   const [product, setProduct] = useState<Product>(
     {

@@ -1,4 +1,4 @@
-import { computed, signal } from "@preact/signals-react";
+import { computed, signal  } from "@preact/signals-react";
 
 //Pour le variables global
 const price = signal<number>(1200);
